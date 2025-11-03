@@ -1,0 +1,33 @@
+# ===== SISTEMA =====
+.DS_Store
+Thumbs.db
+*.log
+
+# ===== FLUTTER / DART =====
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# ===== ANDROID =====
+android/.gradle/
+android/app/build/
+android/build/
+
+# ===== iOS =====
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+ios/build/
+
+# ===== IDEs =====
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
