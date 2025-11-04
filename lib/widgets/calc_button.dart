@@ -33,10 +33,10 @@ class CalculatorButton extends StatelessWidget {
       child: TextButton(
         style: buttonStyle,
         child: Container(
-          width: this.big ? 75 : 30,
-          height: 50,
+          width: this.big ? 80 : 55,
+          height: 65,
           child: Center(
-            child: Text( this.text, style: TextStyle(fontSize: 20, fontWeight: FontWeight.w300),),
+            child: Text( this.text, style: TextStyle(fontSize: 30, fontWeight: FontWeight.w300),),
           ),
         ),
         onPressed: () => this.onPressed(),
